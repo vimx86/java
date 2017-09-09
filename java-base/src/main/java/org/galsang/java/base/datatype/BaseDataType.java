@@ -2,6 +2,8 @@ package org.galsang.java.base.datatype;
 
 import lombok.extern.java.Log;
 
+import java.util.Arrays;
+
 /**
  * Description： Java基本数据类型的验证
  * <br /> Author： galsang
@@ -24,15 +26,26 @@ public class BaseDataType {
         //testC = 1000000
 
         float testD = 1.0f;
-        log.info("testD = " + testD/0);
+        log.info("testD = " + testD / 0);
         //testD = Infinity
 
         log.info("" + (2.0 - 1.1));
         //0.8999999999999999
 
-        log.info("" + String.join(" / ","A","B"));
+        log.info("" + String.join(" / ", "A", "B"));
         //A / B
 
+        int[] arrayInt = {3, 2, 4};
+
+        int length = arrayInt.length;
+        for (int i = 0; i < length; i++) {
+            log.info("" + arrayInt[i]);
+        }
+
+        Arrays.sort(arrayInt);
+        for (int i = 0; i < length; i++) {
+            log.info("" + arrayInt[i]);
+        }
 
     }
 
