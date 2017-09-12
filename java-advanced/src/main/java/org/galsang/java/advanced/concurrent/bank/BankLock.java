@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * <br /> Author： galsang
  */
 @Log
-public class Bank {
+public class BankLock {
 
     /**
      * 账户余额

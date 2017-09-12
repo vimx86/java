@@ -4,11 +4,11 @@ package org.galsang.java.advanced.concurrent.bank;
  * Description： 银行取款，，，柜台 和 ATM自动取款机 同时取款
  * <br /> Author： galsang
  */
-public class BankCase {
+public class BankLockCase {
 
     public static void main(String[] args) {
 
-        Bank bank = new Bank();
+        BankLock bank = new BankLock();
 
         Runnable atmR = () -> {
             for (int i = 0; i < 10; i++) {
