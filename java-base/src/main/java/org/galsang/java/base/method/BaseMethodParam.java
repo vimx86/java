@@ -36,7 +36,6 @@ public class BaseMethodParam {
         Employee test = null;
         log.info("test  " + (test instanceof Employee));
 
-
     }
 
     /**
