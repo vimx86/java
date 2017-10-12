@@ -1,14 +1,14 @@
-package org.galsang.java.advanced.concurrent.bank;
+package org.galsang.java.advanced.concurrent.lock.bank;
 
 /**
  * Description： 银行取款，，，柜台 和 ATM自动取款机 同时取款
  * <br /> Author： galsang
  */
-public class BankLockCase {
+public class BankSyncCase {
 
     public static void main(String[] args) {
 
-        BankLock bank = new BankLock();
+        BankSync bank = new BankSync();
 
         Runnable atmR = () -> {
             for (int i = 0; i < 10; i++) {
@@ -36,7 +36,6 @@ public class BankLockCase {
 
         Thread deposit = new Thread(depositR);
         deposit.start();
-
 
     }
 

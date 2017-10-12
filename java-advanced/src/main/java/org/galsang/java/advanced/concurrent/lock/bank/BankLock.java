@@ -1,4 +1,4 @@
-package org.galsang.java.advanced.concurrent.bank;
+package org.galsang.java.advanced.concurrent.lock.bank;
 
 import lombok.extern.java.Log;
 

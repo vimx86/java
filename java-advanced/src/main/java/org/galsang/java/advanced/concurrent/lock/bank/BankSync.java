@@ -1,10 +1,6 @@
-package org.galsang.java.advanced.concurrent.bank;
+package org.galsang.java.advanced.concurrent.lock.bank;
 
 import lombok.extern.java.Log;
-
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Description： 银行存取款
