@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
- * Description：
+ * Description： lambda 表达式的使用
  * <br /> Author： galsang
  */
 @Log
