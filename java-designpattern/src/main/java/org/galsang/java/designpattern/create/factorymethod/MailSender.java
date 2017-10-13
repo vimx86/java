@@ -1,4 +1,4 @@
-package org.galsang.java.designpattern.factorymethod;
+package org.galsang.java.designpattern.create.factorymethod;
 
 /**
  * Description： 邮件发送

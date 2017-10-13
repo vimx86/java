@@ -5,6 +5,7 @@ Java基础理论 - 设计模式
 
 ### 创建型模式（5）：
 - 工厂方法模式（Factory Method）
+- 抽象工厂模式（Abstract Factory）
 
 ### 结构型模式（7）：
 
