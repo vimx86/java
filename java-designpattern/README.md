@@ -10,6 +10,7 @@ Java基础理论 - 设计模式
 - 抽象工厂模式（Abstract Factory）
 - 单例模式（Singleton）
 - 建造者模式（Builder）
+- 原型模式（Prototype）
 
 ### 结构型模式（7）：
 
