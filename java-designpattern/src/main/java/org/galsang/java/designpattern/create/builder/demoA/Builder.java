@@ -1,4 +1,4 @@
-package org.galsang.java.designpattern.create.builder;
+package org.galsang.java.designpattern.create.builder.demoA;
 
 import java.util.ArrayList;
 import java.util.List;

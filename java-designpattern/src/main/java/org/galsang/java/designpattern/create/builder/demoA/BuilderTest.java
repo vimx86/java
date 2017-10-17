@@ -1,4 +1,4 @@
-package org.galsang.java.designpattern.create.builder;
+package org.galsang.java.designpattern.create.builder.demoA;
 
 /**
  * Description： 创建者模式测试
