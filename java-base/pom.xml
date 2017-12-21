@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.galsang.java.base</groupId>
-    <artifactId>galsang-java-base</artifactId>
+    <artifactId>java-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>galsang-java-base</name>
+    <name>java-base</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -41,7 +41,7 @@
 
     </dependencies>
     <build>
-        <finalName>galsang-java-base</finalName>
+        <finalName>java-base</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>

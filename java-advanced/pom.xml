@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.galsang.java.advanced</groupId>
-    <artifactId>galsang-java-advanced</artifactId>
+    <artifactId>java-advanced</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>galsang-java-advanced</name>
+    <name>java-advanced</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -41,7 +41,7 @@
 
     </dependencies>
     <build>
-        <finalName>galsang-java-advanced</finalName>
+        <finalName>java-advanced</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>

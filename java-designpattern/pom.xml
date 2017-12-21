@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.galsang.java.features</groupId>
-    <artifactId>galsang-java-designpattern</artifactId>
+    <artifactId>java-designpattern</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>galsang-java-designpattern</name>
+    <name>java-designpattern</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -41,7 +41,7 @@
 
     </dependencies>
     <build>
-        <finalName>galsang-java-designpattern</finalName>
+        <finalName>java-designpattern</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
