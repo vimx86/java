@@ -1,4 +1,4 @@
-package org.galsang.java.base.books.effective.article9;
+package org.galsang.java.base.books.effective.item9;
 
 /**
  * Description：

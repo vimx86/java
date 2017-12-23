@@ -5,7 +5,7 @@
     
 | 编号 | 包 | 描述 |
 | :---- |:----: | :---- |
-| 第 9 条 | article9 | 覆盖 `equals` 时 总要覆盖 `hashCode` |
+| 第 9 条 | item9 | 覆盖 `equals` 时 总要覆盖 `hashCode` |
  
 
  
