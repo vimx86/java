@@ -10,51 +10,10 @@
     <name>java-designpattern</name>
     <url>http://maven.apache.org</url>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-        <maven_compiler_plugin>3.5.1</maven_compiler_plugin>
-        <jdk.version>1.8</jdk.version>
+    <parent>
+        <groupId>org.galsang.java</groupId>
+        <artifactId>java</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
 
-        <junit.vsersion>4.12</junit.vsersion>
-        <lombok.version>1.16.18</lombok.version>
-    </properties>
-
-    <dependencies>
-
-        <!-- junit start -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.vsersion}</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- junit end -->
-
-        <!-- lombok start -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-        </dependency>
-        <!-- lombok end -->
-
-    </dependencies>
-    <build>
-        <finalName>java-designpattern</finalName>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>${maven_compiler_plugin}</version>
-                    <configuration>
-                        <source>${jdk.version}</source>
-                        <target>${jdk.version}</target>
-                        <encoding>${maven.compiler.encoding}</encoding>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
 </project>
