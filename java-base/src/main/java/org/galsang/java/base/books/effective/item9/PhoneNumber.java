@@ -31,13 +31,35 @@ public class PhoneNumber {
 //        return lineNumber == that.lineNumber;
 //    }
 
+    // ========================= 常规 hashCode 方法 start ===========
+//    @Override
+//    public int hashCode() {
+//        int result = (int) areaCode;
+//        result = 31 * result + (int) prefix;
+//        result = 31 * result + (int) lineNumber;
+//        return result;
+//    }
+    // ========================= 常规 hashCode 方法 end ===========
+
+
+    // ========================= 缓存 hashCode 方法 start ===========
+    // 如果散列计算开销大，使用频繁可以考虑缓存 hashCode 值。
+    // 使用懒加载的方式初始化，缓存 hashCode.
+    private volatile int hashCode;
+
     @Override
     public int hashCode() {
-        int result = (int) areaCode;
-        result = 31 * result + (int) prefix;
-        result = 31 * result + (int) lineNumber;
+        int result = hashCode;
+        if(result == 0){
+            result = (int) areaCode;
+            result = 31 * result + (int) prefix;
+            result = 31 * result + (int) lineNumber;
+            hashCode = result;
+        }
         return result;
     }
+    // ========================= 缓存 hashCode 方法 end ===========
+
 
     public PhoneNumber(int areaCode, int prefix, int lineNumber) {
         rangeCheck(areaCode, 999, "areaCode");
